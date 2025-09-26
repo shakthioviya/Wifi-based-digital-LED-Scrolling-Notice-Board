@@ -37,6 +37,11 @@ ESP8266 connects to WiFi and subscribes to Adafruit IO feed.
 
 Arduino Nano drives the LED matrix and LCD.
 
+Messages flow: Adafruit IO → ESP8266 → Arduino Nano → LED Matrix + LCD + Buzzer.
+
+Common GND required between modules.
+
+
 📄 Publication
 
 📖 This project was published in the International Journal of Novel Research and Development (IJNRD), Volume 9, Issue 11, November 2024:
@@ -49,6 +54,3 @@ Shakthi Oviya P (2022504303)
 
 This project showcases the power of IoT and embedded systems by enabling real-time, remote communication through a low-cost and scalable smart notice board.
 
-Messages flow: Adafruit IO → ESP8266 → Arduino Nano → LED Matrix + LCD + Buzzer.
-
-Common GND required between modules.
